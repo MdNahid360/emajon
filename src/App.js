@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from '../components/Header/Header';
-
-function App() {
+ import './App.css';
+import Header from './components/Header/Header';
+import Products from './components/Header/Products/Products';
+import Shop from './components/Header/Shop/Shop';
+ function App() {
   return (
     <div className="App">
-      
-          <Header></Header>
+           <Header></Header>
+           <Shop></Shop>
+           
       </div>
-  );
+  )
 }
 
 export default App;

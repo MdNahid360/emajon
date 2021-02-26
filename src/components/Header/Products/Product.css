@@ -1,0 +1,23 @@
+.product{
+    display: flex;
+    padding: 10px 5px;
+    margin-left: 5px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+.product-name{
+    color:rgb(0, 0, 70);
+    font-weight: 500;
+}
+
+.buy{
+    background-color: orange;
+    border: 0px;
+    padding: 10px 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.prd2{
+        padding:0px 20px;
+}
